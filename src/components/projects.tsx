@@ -19,7 +19,7 @@ const projects = [
   {
     title: "SubFlow",
     description: "Full-stack web3 SaaS application with real-time features",
-    image: "/placeholder.svg",
+    image: "/subflow.png",
     github: "#",
     demo: "#",
     availability: false,
