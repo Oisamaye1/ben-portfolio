@@ -32,4 +32,5 @@ export const send = async (emailformData: z.infer<typeof formSchema>) => {
         throw(e)
     }
 }
+//this is the email
 
