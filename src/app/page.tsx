@@ -7,11 +7,13 @@ import Education from "@/components/education"
 import Experience from "@/components/experience"
 import Contact from "@/components/contact"
 import { ScrollArea } from "@/components/ui/scroll-area"
+import { Toaster } from "sonner"
 
 export default function Home() {
   return (
     <ScrollArea className="h-screen">
       <main className="min-h-screen bg-background">
+      <Toaster position="top-center" />
         <Hero />
         <About />
         <TechStack />

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
 import MaxWidthWrapper from "./MaxWidthWrapper"
-import Email from "@/emails"
+import Email from "@/components/contact-form"
 
 export default function Contact() {
   return (
