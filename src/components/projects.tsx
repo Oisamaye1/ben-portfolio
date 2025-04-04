@@ -9,6 +9,14 @@ import { Badge } from "./ui/badge"
 
 const projects = [
   {
+    title: "Form Dashboard",
+    description: "A modern web app that allows users submit online forms and also allows Admin access all submissions, while also providing a download button",
+    image: "/moviediscovery.png",
+    github: "https://github.com/Oisamaye1/movie-discovery",
+    demo: "https://form-submission-five.vercel.app/",
+    availability: true,
+  },
+  {
     title: "Movie Discovery",
     description: "A modern web application built with Next.js and TypeScript where users can browse their favorite, seacrch upcoming releases and mark the for future viewing",
     image: "/moviediscovery.png",
