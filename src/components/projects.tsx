@@ -9,6 +9,14 @@ import { Badge } from "./ui/badge"
 
 const projects = [
   {
+    title: "Movie Discovery",
+    description: "A modern web application built with Next.js and TypeScript where users can browse their favorite, seacrch upcoming releases and mark the for future viewing",
+    image: "/moviediscovery.png",
+    github: "https://github.com/Oisamaye1/movie-discovery",
+    demo: "https://movie-discovery-ten.vercel.app/",
+    availability: true,
+  },
+  {
     title: "JamiLegacy",
     description: "A modern web application built with Next.js and TypeScript",
     image: "/jamilegacy.png",
@@ -111,6 +119,7 @@ export default function Projects() {
                   <div className="mt-4 flex gap-4">
                     <Link
                       href={project.github}
+                      target="_blank"
                       className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
                     >
                       <Github className="size-4 text-[#3E7B27]" />
@@ -118,6 +127,7 @@ export default function Projects() {
                     </Link>
                     <Link
                       href={project.demo}
+                      target="_blank"
                       className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
                     >
                       <ExternalLink className="size-4 text-[#3E7B27]" />
